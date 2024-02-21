@@ -1,0 +1,443 @@
+@charset "UTF-8";
+
+ul, li {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+li a {
+	display: block;
+	width: 250px;
+	line-height: 50px;
+	text-transform: uppercase;
+	background-color: #FFFAF2;
+	color:#4B4B4B;
+	font-size: 1em;
+	border-bottom: 1px solid #f2f2f2;
+	font-family: "carrotflower", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	text-align: center;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+nav {
+    width: 1225px;
+    height: 816px;
+    margin: 100px auto 0 auto;
+}
+
+body {
+	background-color:#dfbf9f;
+}
+
+.container { 
+	width: 900px;
+	margin: 75px auto 0 auto;
+}
+
+.container h1 {
+	font-family: "regina", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 7em;
+	color: #cc9966;
+	text-align: center;
+	line-height: 50px;
+	transition: letter-spacing .3s ease-in-out;
+}
+
+.container h1:hover {
+	letter-spacing: .1em;
+}
+
+.container h2 {
+	font-family: "new-order", sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	text-transform: uppercase;
+	color:  #e6ccb3;
+	font-size: 4em;
+	text-align: center;
+	line-height: 5px;
+	transform: translate(0%, -7%);
+	transition: letter-spacing .3s ease-in-out;
+}
+
+.container h2:hover {
+	letter-spacing: .1em;
+}
+
+
+#disney, #gazebo, #beach, #concert {
+	width: 250px;
+	height: 258px;
+	position: relative;
+	float: left;
+	margin-right: 25px;
+}
+
+#disney {
+	margin-left: 75px;
+}
+
+#concert {
+	margin-right: 75px;
+}
+
+#disneyimage {
+    width: 250px;
+    height: 208px;
+    background-image: url("../images/polaroid-sprite.gif");
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    float: left;
+    transition: background .5s linear;
+    border-top: 2px solid #f2f2f2;
+    border-left: 2px solid #f2f2f2;
+    border-right: 2px solid #f2f2f2;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#disneyimage:hover {
+	background-position: 0px -208px;
+
+}
+
+#gazeboimage {
+	width: 250px;
+	height: 208px;
+	background-image: url("../images/polaroid-sprite.gif");
+	background-position: -250px 0px;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	float: left;
+	transition: background .5s linear;
+	border-top: 2px solid #f2f2f2;
+	border-left: 2px solid #f2f2f2;
+	border-right: 2px solid #f2f2f2;
+	border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#gazeboimage:hover {
+	background-position: -250px -208px;
+}
+
+#beachimage {
+	width: 250px;
+	height: 208px;
+	background-image: url("../images/polaroid-sprite.gif");
+	background-position: -500px 0px;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	float: left;
+	transition: background .5s linear;
+	border-top: 2px solid #f2f2f2;
+	border-left: 2px solid #f2f2f2;
+	border-right: 2px solid #f2f2f2;
+	border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#beachimage:hover {
+	background-position: -500px -208px;
+}
+
+#concertimage {
+	width: 250px;
+	height: 208px;
+	background-image: url("../images/polaroid-sprite.gif");
+	background-position: -750px 0px;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	float: left;
+	transition: background .5s linear;
+	border-top: 2px solid #f2f2f2;
+	border-left: 2px solid #f2f2f2;
+	border-right: 2px solid #f2f2f2;
+	border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#concertimage:hover {
+	background-position: -750px -208px;
+}
+
+ul.submenu {
+	position: absolute;
+	left: -9000em;
+	height: 0;
+	transition: height 1.5s ease-in-out;
+	overflow: hidden;
+}
+
+/*<!--DISNEY MENU-->*/
+
+#disneytopmenu li a {
+	display: block;
+	width: 250px;
+	line-height: 50px;
+	text-transform: uppercase;
+	background-color: #EFE3F8;
+	color: white;
+	font-size: 1em;
+	border-bottom: 1px dotted #CA99EF;
+	font-family: "carrotflower", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	text-align: center;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#disneytopmenu .inspirational {
+	background-color: white;
+	color:#4B4B4B;
+	border-bottom: 2px solid #f2f2f2;
+	border-left: 2px solid #f2f2f2;
+	border-right: 2px solid #f2f2f2;
+	border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	transition: letter-spacing .5s ease-in-out;
+}
+
+#disneytopmenu li:hover ul.submenu {
+	left: 0;
+	height: 500px;
+}
+
+#disneytopmenu .inspirational:hover {
+	background-color: #E5C1FD;
+	color: white;
+	border-bottom: 2px solid #EDD5FF;
+	border-left: 2px solid #EDD5FF;
+	border-right: 2px solid #EDD5FF;
+	letter-spacing: .5em
+}
+
+#disneytopmenu li:hover .inspirational {
+	background-color: #E5C1FD;
+	color: white;
+	border-bottom: 2px solid #EDD5FF;
+	border-left: 2px solid #EDD5FF;
+	border-right: 2px solid #EDD5FF;
+	letter-spacing: .5em
+}
+
+ul#disneytopmenu .submenu li a:hover {
+	background-color: #CA99EF;
+	border: 2px solid #EFE3F8;
+}
+
+/*GAZEBO MENU*/
+
+#gazebotopmenu li a {
+	display: block;
+	width: 250px;
+	line-height: 50px;
+	text-transform: uppercase;
+	background-color: #C0D6C6;
+	color: white;
+	font-size: 1em;
+	border-bottom: 1px dotted #A0C6AA;
+	font-family: "carrotflower", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	text-align: center;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#gazebotopmenu .design {
+	background-color: white;
+	color: #4B4B4B;
+	border-bottom: 2px solid #f2f2f2;
+	border-left: 2px solid #f2f2f2;
+	border-right: 2px solid #f2f2f2;
+	border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	transition: letter-spacing .5s ease-in-out;
+}
+
+#gazebotopmenu li:hover ul.submenu {
+	left: 0;
+	height: 500px;
+}
+
+#gazebotopmenu .design:hover {
+	background-color: #A0C6AA;
+	color: white;
+	border-bottom: 2px solid #A0C6AA;
+	border-left: 2px solid #A0C6AA;
+	border-right: 2px solid #A0C6AA;
+	letter-spacing: .35em;
+}
+
+#gazebotopmenu li:hover .design {
+	background-color: #A0C6AA;
+	color: white;
+	border-bottom: 2px solid #A0C6AA;
+	border-left: 2px solid #A0C6AA;
+	border-right: 2px solid #A0C6AA;
+	letter-spacing: .35em;
+}
+
+ul#gazebotopmenu .submenu li a:hover {
+	background-color: #7D9B85;
+	border: 2px solid #C0D6C6;
+}
+
+/*BEACH SUBMEU*/
+
+#beachtopmenu li a {
+	display: block;
+	width: 250px;
+	line-height: 50px;
+	text-transform: uppercase;
+	background-color: #C6D6E1;
+	color: white;
+	font-size: 1em;
+	border-bottom: 1px dotted #86A8C2;
+	font-family: "carrotflower", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	text-align: center;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#beachtopmenu .other {
+	background-color: white;
+	color: #4B4B4B;
+	border-bottom: 2px solid #f2f2f2;
+	border-left: 2px solid #f2f2f2;
+	border-right: 2px solid #f2f2f2;
+	border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	transition: letter-spacing .5s ease-in-out;
+}
+
+#beachtopmenu li:hover ul.submenu {
+	left: 0;
+	height: 500px;
+}
+
+#beachtopmenu .other:hover {
+	background-color: #ABCEE8;
+	color: white;
+	border-bottom: 2px solid #ABCEE8;
+	border-left: 2px solid #ABCEE8;
+	border-right: 2px solid #ABCEE8;
+	letter-spacing: .35em;
+}
+
+#beachtopmenu li:hover .other {
+	background-color: #ABCEE8;
+	color: white;
+	border-bottom: 2px solid #ABCEE8;
+	border-left: 2px solid #ABCEE8;
+	border-right: 2px solid #ABCEE8;
+	letter-spacing: .35em;
+}
+
+ul#beachtopmenu .submenu li a:hover {
+	background-color: #86A8C2;
+	border: 2px solid #C6D6E1;
+}
+
+/*CONCERT SUBMENU*/
+
+#concerttopmenu li a {
+	display: block;
+	width: 250px;
+	line-height: 50px;
+	text-transform: uppercase;
+	background-color: #F4CECE;
+	color: white;
+	font-size: 1em;
+	border-bottom: 1px dotted #D88888;
+	font-family: "carrotflower", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	text-align: center;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#concerttopmenu .mywork {
+	background-color: white;
+	color: #4B4B4B;
+	border-bottom: 2px solid #f2f2f2;
+	border-left: 2px solid #f2f2f2;
+	border-right: 2px solid #f2f2f2;
+	border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	transition: letter-spacing .5s ease-in-out;
+}
+
+#concerttopmenu li:hover ul.submenu {
+	left: 0;
+	height: 500px;
+}
+
+#concerttopmenu .mywork:hover {
+	background-color: #F1B2B2;
+	color: white;
+	border-bottom: 2px solid #F1B2B2;
+	border-left: 2px solid #F1B2B2;
+	border-right: 2px solid #F1B2B2;
+	letter-spacing: .35em;
+}
+
+#concerttopmenu li:hover .mywork {
+	background-color: #F1B2B2;
+	color: white;
+	border-bottom: 2px solid #F1B2B2;
+	border-left: 2px solid #F1B2B2;
+	border-right: 2px solid #F1B2B2;
+	letter-spacing: .35em;
+}
+
+ul#concerttopmenu .submenu li a:hover {
+	background-color: #D88888;
+	border: 2px solid #F4CECE;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

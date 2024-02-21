@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+/* COLORS
+
+YELLOW: #E5C701
+GREEN: #75A734
+MAGENTA: #BE2F78
+BLUE: #0088B4
+LIGHT GRAY: #D1C8C4
+TYPE GRAY: #807673
+HOVER GRAY: #AEA8A5
+LIGHT GRAY DOTS: #DCD2CD
+
+*/
+
+nav {
+	width: 750px;
+	margin: 100px auto 0 auto;
+}
+#inspiration, #web, #other, #projects {
+	width: 150px;
+	margin-right: 50px;
+	position: relative; /* parent container for absolute positioning of ul.submenu */
+	float: left;	
+}
+#projects {
+	margin: 0;
+}
+
+/*IMAGES*/
+
+.inspiration-icon, .resources-web-icon, .resources-other-icon,.resources-projects-icon {
+	width: 150px;
+	height: 150px;
+	background-image: url(../images/sprite-art.png);
+	background-repeat: no-repeat;	
+	overflow: hidden;
+}
+.inspiration-icon{
+	background-position: 0 0;
+}
+.resources-web-icon {
+	background-position: -175px 0;
+}
+.resources-other-icon {
+	background-position: -350px 0;
+}
+.resources-projects-icon {
+	background-position: -525px 0;
+}
+
+/*DROPDOWN MENUS*/
+
+li a {
+	display: block;
+	width: 140px;
+	padding-left: 10px;
+	font-family: 'Source Sans Pro', Helvetica, Ariela, San-serif;
+	font-size: .8em;
+	text-transform: uppercase;
+	line-height: 32px;
+	background-color: #D1C8C4;
+	border-bottom: 2px dotted #dcd2cd;
+	color: white;
+}
+
+a.inspirational {
+	background-color:#E5C701;
+	border-bottom: none;
+}
+
+a.web {
+	background-color: #75A734;
+	border-bottom: none
+}
+
+a.other {
+	background-color: #BE2F78;
+	border-bottom: none
+}
+
+a.projects {
+	background-color: #0088B4;
+	border-bottom: none
+}
+
+a.inspirational:hover, a.web:hover, a.other:hover, a.projects:hover {
+	background-color: black;
+}
+
+ul.submenu {
+	position: absolute;
+	left: -9000em;
+	height: 0;
+	transition: height 1.5s ease-in-out;
+	overflow: hidden;
+}
+
+.topmenu li:hover ul.submenu {
+	left: 0;
+	height: 500px;
+}
+
+/*SUBMENU HOVER*/
+
+ul.submenu li a:hover {
+	background-color: #AEA8A5;
+	border-bottom: 2px solid #AEA8A5;
+}
+
+/*TOP MENU SUSTAINED HOVER*/
+li:hover a.inspirational, li:hover a.web, li:hover a.other, li:hover a.projects {
+	background: black;
+}
+
+
+
+
+
+
+
+
+
