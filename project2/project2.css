@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+
+article {
+	width: 100%;
+	min-width: 320px;
+	max-width: 1280px;
+}
+
+p {
+	font-family: "p22-typewriter", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: .5em;
+	margin-left: 3%;
+	margin-top: 4%;
+}
+
+/*TITLE*/
+
+h1 {
+	font-family: "hey-eloise", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 5em;
+	text-align: center;
+	margin-left: 3%;
+	transform: translate(0, -200%);
+}
+
+h2 {
+	font-family: "storybook", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 2.5em;
+	margin-left: 3%;
+}
+
+
+h3 {
+	font-family: "p22-typewriter", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 1em;
+	margin-left: 3%;
+	margin-right: 5%;
+	margin-top: 3%;
+}
+
+.tree1, .tree2 {
+	display: none;
+}
+
+.lookingup {
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.lookingup img {
+}
+
+/*SECTION*/
+section {
+	
+}
+
+
+.stairs {}
+
+.stairs img {}
+
+.house img {}
+
+.tree3 img {}
+
+.bush img {}
+
+.christopherrobin img {}
+
+.mud img {}
+
+.footprints img {}
+
+.balloon img {}
+
+.flying img {}
+
+.umbrella img {}
+
+.solobees img {}
+
+.solobees2 img {}
+
+.pop img {}
+
+.bathmat img {}
+
+.bath img {}
+
+h1:
+
+
