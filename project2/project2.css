@@ -1,31 +1,145 @@
 @charset "UTF-8";
 
 
+/*.stairs {}
+
+.stairs img {}
+
+.house {}
+
+.house img {}
+
+.tree3 {}
+
+.tree3 img {}
+
+.bush img {}
+
+.bush {}
+
+.christopherrobin img {}
+
+.christopherrobin {}
+
+.mud img {}
+
+.mud {}
+
+.footprints img {}
+
+.footprints {}
+
+.balloon img {}
+
+.balloon {}
+
+.flying img {}
+
+.flying {}
+
+.umbrella img {}
+
+.umbrella {}
+
+.solobees img {}
+
+.solobees {}
+
+.solobees2 img {}
+
+.solobees2 {}
+
+.pop img {}
+
+.pop {}
+
+.bathmat img {}
+
+.bathmat {}
+
+.bath img {}
+
+.bath {}*/
+
+
 article {
 	width: 100%;
 	min-width: 320px;
 	max-width: 1280px;
 }
 
+nav {
+	width: 75%;
+	margin: 1.5em auto .5em auto;
+}
+
+nav .back, nav .home, nav .next {
+	width: 25%;
+	height: 3.5em;
+	margin-right: 12.5%;
+	float: left;
+	background-size: contain;
+	background-repeat: no-repeat;
+	transition: background-image 2s ease-in;
+}
+
+nav .back {
+	background-image: url("images/nav2-normal.png");
+}
+
+nav .back:hover {
+	background-image: url("images/nav2.png");
+}
+
+nav .home {
+	background-image: url("images/nav3-normal.png");
+}
+
+nav .home:hover {
+	background-image: url("images/nav3.png");
+}
+
+nav .next {
+	background-image: url("images/nav1-normal.png");
+	margin-right: 0;
+}
+
+nav .next:hover {
+	background-image: url("images/nav1.png");
+}
+
 p {
 	font-family: "p22-typewriter", sans-serif;
 	font-weight: 400;
 	font-style: normal;
-	font-size: .5em;
+	font-size: .75em;
 	margin-left: 3%;
-	margin-top: 4%;
+	margin-right: 7%;
+	margin-top: 3%;
+	margin-bottom: 3%;
+	color: #996633;
+	line-height: 1.2em;
 }
 
 /*TITLE*/
 
+header {
+	width: 100%;
+	background-color: #f9f2ec;
+	padding-bottom: 5%;
+	padding-top: 5%;
+}
+
 h1 {
-	font-family: "hey-eloise", sans-serif;
-	font-weight: 400;
-	font-style: normal;
-	font-size: 5em;
-	text-align: center;
-	margin-left: 3%;
-	transform: translate(0, -200%);
+    font-family: "hey-eloise", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 5em;
+    text-align: center;
+    margin-left: 3%;
+    transform: translate(0, -350%);
+    color: #ffcc66;
+	text-decoration: underline wavy 1%;
 }
 
 h2 {
@@ -34,6 +148,8 @@ h2 {
 	font-style: normal;
 	font-size: 2.5em;
 	margin-left: 3%;
+	margin-top: -45%;
+	color: #664400;
 }
 
 
@@ -45,6 +161,7 @@ h3 {
 	margin-left: 3%;
 	margin-right: 5%;
 	margin-top: 3%;
+	color: #664400;
 }
 
 .tree1, .tree2 {
@@ -53,51 +170,178 @@ h3 {
 
 .lookingup {
 	width: 80%;
-	margin-right: auto;
-	margin-left: auto;
+	margin-left: 15%;
 }
 
 .lookingup img {
+	width: 90%;
 }
 
 /*SECTION*/
 section {
-	
+	width: 100%;
+	background-color: #f9f2ec;
+	padding-top: 3%;
+}
+
+.stairs {
+	width: 75%;
+	margin-left: 15%;
+}
+
+.stairs img {
+		width: 100%;
+	}
+
+.house {
+	width: 75%;
+	margin-left: 15%;
+}
+
+.house img {
+	width: 100%;
+}
+
+.tree3 {
+	width: 65%;
+	margin-left: 20%;
+}
+
+.tree3 img {
+	width: 100%;
+}
+
+.bush {
+	width: 75%;
+	margin-left: 15%;
+}
+
+.bush img {
+	width: 100%;
+}
+
+.christopherrobin {
+	width: 75%;
+	margin-left: 15%;
+}
+
+.christopherrobin img {
+	width: 100%;
+}
+
+.mud {
+	width: 85%;
+	margin-left: 7%;
+}
+
+.mud img {
+	width: 100%;
+}
+
+.footprints {
+	width: 85%;
+	margin-left: 7%;
+}
+
+.footprints img {
+	width: 100%;
+}
+
+.balloon {
+	width: 85%;
+	margin-left: 7%;
+}
+
+.balloon img {
+	width: 100%;
+}
+
+.flying {
+	width: 85%;
+	margin-left: 7%;
+}
+
+.flying img {
+	width: 100%;
+}
+
+.umbrella {
+	width: 75%;
+	margin-left: 7%;
+}
+
+.umbrella img {
+	width: 100%;
+}
+
+.solobees {
+	width: 90%;
+	margin-left: 3%;
+}
+
+.solobees img {
+	width: 100%;
+}
+
+.solobees2 {
+	width: 90%;
+	margin-left: 3%;
 }
 
 
-.stairs {}
+.solobees2 img {
+	width: 100%;
+}
 
-.stairs img {}
+.pop {
+	width: 90%;
+	margin-left: 3%;
+}
 
-.house img {}
+.pop img {
+	width: 100%;
+}
 
-.tree3 img {}
+.bathmat {
+	width: 90%;
+	margin-left: 5%;
+}
 
-.bush img {}
+.bathmat img {
+	width: 100%;
+}
 
-.christopherrobin img {}
+.bath {
+	width: 90%;
+	margin-left: 5%;
+}
 
-.mud img {}
+.bath img {
+	width: 100%;
+}
 
-.footprints img {}
+blockquote {
+	width: 75%;
+	margin: 1em auto;
+	padding: .5em;
+	background-color: #ffcc66;
+	border-radius: 10px;
+	color: white;
+	font-size: .9em;
+	text-align: center;
+	line-height: 1.25;
+	font-family: "p22-typewriter", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
 
-.balloon img {}
-
-.flying img {}
-
-.umbrella img {}
-
-.solobees img {}
-
-.solobees2 img {}
-
-.pop img {}
-
-.bathmat img {}
-
-.bath img {}
-
-h1:
-
-
+@media (min-width: 320px){
+	
+	nav .back, nav .home, nav .next {
+		height: 4.5em;
+	}
+	
+	nav {
+		margin-bottom: 1em;
+	}
+}
