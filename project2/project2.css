@@ -75,13 +75,13 @@ nav {
 }
 
 nav .back, nav .home, nav .next {
-	width: 25%;
+	width: 20%;
 	height: 3.5em;
-	margin-right: 12.5%;
+	margin-left: 9%;
 	float: left;
 	background-size: contain;
 	background-repeat: no-repeat;
-	transition: background-image 2s ease-in;
+	transition: background-image 1s ease-in;
 }
 
 nav .back {
@@ -138,9 +138,9 @@ h1 {
 	font-family: "hey-eloise", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 5em;
+    font-size: 3em;
     text-align: center;
-    transform: translate(0, -350%);
+    transform: translate(0, -400%);
     color: #e69900;
 	background-color: #ffcc66;
 	border-radius: 10px;
@@ -153,7 +153,7 @@ h2 {
 	font-style: normal;
 	font-size: 2.5em;
 	margin-left: 3%;
-	margin-top: -45%;
+	margin-top: -15%;
 	color: #664400;
 }
 
@@ -180,6 +180,7 @@ h3 {
 
 .lookingup img {
 	width: 90%;
+	height: 50%;
 }
 
 /*SECTION*/
@@ -191,7 +192,7 @@ section {
 
 .stairs {
 	width: 75%;
-	margin-left: 15%;
+	margin-left: 12%;
 }
 
 .stairs img {
@@ -338,6 +339,7 @@ blockquote {
 	font-family: "p22-typewriter", sans-serif;
 	font-weight: 400;
 	font-style: normal;
+
 }
 
 @media (min-width: 320px){
@@ -349,4 +351,64 @@ blockquote {
 	nav {
 		margin-bottom: 1em;
 	}
+}
+
+.stairs img {
+		width: 100%;
+		height: 80%;
+	}
+.house img {
+	width: 100%;
+	height: 80%;
+}
+.tree3 img {
+	width: 100%;
+	height: 70%;
+}
+.bush img {
+	width: 100%;
+	height: 80%;
+}
+.christopherrobin img {
+	width: 100%;
+	height: 80%;
+}
+.mud img {
+	width: 100%;
+	height: 80%;
+}
+.footprints img {
+	width: 100%;
+	height: 80%;
+}
+.balloon img {
+	width: 100%;
+	height: 80%;
+}
+.flying img {
+	width: 100%;
+	height: 80%;
+}
+.umbrella img {
+	width: 100%;
+	height: 80%;
+}
+.solobees img {
+	width: 100%;
+	height: 80%;
+}
+.solobees2 {
+	display: none;
+}
+.pop img {
+	width: 100%;
+	height: 80%
+}
+.bathmat img {
+	width: 100%;
+	height: 80%;
+}
+.bath img {
+	width: 100%;
+	height: 80%;
 }
