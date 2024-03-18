@@ -69,8 +69,9 @@ article {
 }
 
 nav {
-	width: 75%;
-	margin: 1.5em auto .5em auto;
+	width: 90%;
+	margin-left: 10%;
+	margin-right: 10%;
 }
 
 nav .back, nav .home, nav .next {
@@ -130,16 +131,20 @@ header {
 	padding-top: 5%;
 }
 
-h1 {
-    font-family: "hey-eloise", sans-serif;
+h1 { 
+	width: 85%;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: "hey-eloise", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 5em;
     text-align: center;
-    margin-left: 3%;
     transform: translate(0, -350%);
-    color: #ffcc66;
-	text-decoration: underline wavy 1%;
+    color: #e69900;
+	background-color: #ffcc66;
+	border-radius: 10px;
+	padding-top: .1em;
 }
 
 h2 {
