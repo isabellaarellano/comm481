@@ -362,18 +362,21 @@ blockquote {
 .stairs img {
 		width: 100%;
 		height: 80%;
+	margin-top: 10%;
 	}
 .house img {
 	width: 100%;
 	height: 80%;
+	margin-top: 5%;
 }
 .tree3 img {
-	width: 100%;
+	width: 90%;
 	height: 70%;
 }
 .bush img {
 	width: 100%;
 	height: 80%;
+	margin-top: 2%;
 }
 .christopherrobin img {
 	width: 100%;
@@ -390,6 +393,7 @@ blockquote {
 .balloon img {
 	width: 100%;
 	height: 80%;
+	margin-top: 3%;
 }
 .flying img {
 	width: 100%;
@@ -408,17 +412,62 @@ blockquote {
 }
 .pop img {
 	width: 100%;
-	height: 80%
+	height: 80%;
+	margin-top: 3%;
 }
 .bathmat img {
 	width: 100%;
 	height: 80%;
+	margin-top: 3%;
 }
 .bath img {
 	width: 100%;
 	height: 80%;
 }
 
+blockquote {
+	font-size: 1em;
+}
+
+blockquote.pullquote1 {
+	width: 70%;
+}
+
+blockquote.pullquote2 {
+	width: 60%;
+}
+
+blockquote.pullquote3 {
+	width: 50%;
+}
+
+blockquote.pullquote4 {
+	width: 30%;
+}
+
+blockquote.pullquote5 {
+	width: 55%;
+}
+
+blockquote.pullquote6 {
+	width: 55%;
+}
+
+blockquote.pullquote7 {
+	width: 70%;
+}
+
+blockquote.pullquote8 {
+	width: 50%;
+}
+
+blockquote.pullquote9 {
+	width: 60%;
+}
+
+blockquote.pullquote10 {
+	width: 60%;
+}
 
 
 @media (min-width: 450px){
@@ -680,21 +729,21 @@ blockquote.pullquote7 {
 @media (min-width: 768px){
 	
 	header {
-	width: 50%;
+	width: 40%;
 	background-color: transparent;
 	top: 0;
-	right: 0;
+	right: 10%;
 	position: absolute;
 	max-width: 500px;
 	}
 	
 	.tree4 {
 	display: block;
-	width: 40%;
+	width: 35%;
 	height: 10%;
 	top: 0;
 	right: 0;
-	padding-left: 5%;
+	padding-left: 15%;
 	margin: 0;
 }
 	
@@ -716,10 +765,12 @@ blockquote.pullquote7 {
 	h2 {
 		text-align: center;
 		margin-top: -25%;
+		font-size: 3em;
 	}
 	
 	h3 {
 		text-align: center;
+		font-size: 1em;
 
 	}
 	
@@ -830,10 +881,10 @@ blockquote.pullquote7 {
 @media (min-width: 880px){
 	
 	header {
-	width: 50%;
+	width: 40%;
 	background-color: transparent;
 	top: 0;
-	right: 0;
+	right: 10%;
 	position: absolute;
 	max-width: 500px;
 	}
@@ -841,25 +892,37 @@ blockquote.pullquote7 {
 	h1 {
 		width: 50%;
 		font-size: 4em;
+		transform: translate(0, -190%)
 	}
 	h2 {
-		margin-top: -25%;
-		font-size: 5em;
+		margin-top: -35%;
+		font-size: 3em;
 	}
 	
 	h3 {
-		font-size: 1.3em;
+		font-size: .9em;
 	}
+	
+	.tree4 {
+		width: 30%;
+	}
+	
+	section {
+		margin-top: 2%;
+	}
+	
+	
 }
 
 @media (min-width: 1000px){
 	nav {
-		width: 75%;
+		width: 85%;
+		margin-left: -0%;
 	}
 	
 
 	header {
-	width: 50%;
+	width: 40%;
 	background-color: transparent;
 	top: 0;
 	right: 7%;
@@ -872,28 +935,78 @@ blockquote.pullquote7 {
 	}
 	
 	.lookingup img {
-		width: 100%;
-		align-content: center;
+		width: 80%;
 	}
 	
 	.tree4 {
-		width: 38%;
-		margin-left: 5%;
+		width: 30%;
+		margin-left: 4%;
 	}
 	.tree4 img{
 		height: 0%;
 	}
 	
 	h1 {
-		transform: translate(0, -250%);
+		font-size: 3em;
+		transform: translate(-10%, -225%);
 	}
 	
 	h2 {
-		font-size: 4em;
+		font-size: 3.5em;
+		margin-top: -20%;
 	}
 	
 	h3 {
+		width: 90%;
+		font-size: 1em;
+	}
+	
+	section {
+		margin-top: 5%;
+	}
+	
+	blockquote {
 		font-size: 1.3em;
+	}
+	
+	blockquote.pullquote1 {
+		width: 50%;
+	}
+	
+	blockquote.pullquote2 {
+		width: 50%;
+	}
+	
+	blockquote.pullquote3 {
+		width: 30%;
+	}
+	
+	blockquote.pullquote4 {
+		width: 10%;
+	}
+	
+	blockquote.pullquote5 {
+		width: 30%;
+	}
+	
+	blockquote.pullquote6 {
+		width: 25%;
+	}
+	
+	blockquote.pullquote7 {
+		width: 32%;
+	}
+	
+	blockquote.pullquote8 {
+		width: 23%;
+	}
+	
+	blockquote.pullquote9 {
+		width: 27%;
+	}
+	
+	blockquote.pullquote10 {
+		width: 30%;
 	}
 }
 
@@ -916,27 +1029,34 @@ blockquote.pullquote7 {
 	}
 	
 	.lookingup img {
-		width: 100%;
+		width: 80%;
 		align-content: center;
 	}
 	
 	.tree4 {
-		width: 40%;
+		width: 33%;
+		margin-left: .5%;
 	}
 	.tree4 img {
 		width: 90%;
 	}
 	
 	h1 {
-		transform: translate(0, -250%);
+		transform: translate(0, -400%);
+		width: 60%;
 	}
 	
 	h2 {
-		font-size: 4.7em;
+		font-size: 3.5em;
+		margin-top: -10%;
 	}
 	
 	h3 {
-		font-size: 1.5em;
+		font-size: 1.2em;
+	}
+	
+	section {
+		margin-top: 0;
 	}
 }
 
@@ -949,7 +1069,7 @@ blockquote.pullquote7 {
 	
 	.tree4 {
 		width: 33%;
-		margin-left: -4%;
+		margin-left: -11%;
 		float: left;
 	}
 	
@@ -959,14 +1079,27 @@ blockquote.pullquote7 {
 	
 	h3 {}	
 	
+	nav {
+		width: 75%;
+	}
+	
+	.lookingup {
+		width: 80%;
+	}
+	
+	.lookingup img {
+		width: 100%;
+		margin-left: -7%;
+	}
+	
 	header {
 		width: 33%;
-		margin-right: 25%;
+		margin-right: 23%;
 		float: left;
 	}
 	
 	h1 {
-		transform: translate(0,-240%);
+		transform: translate(0,-540%);
 	}
 	
 	nav {
@@ -1087,43 +1220,43 @@ blockquote.pullquote7 {
 	}
 	
 	blockquote.pullquote1 {
-		width: 50%;
+		width: 30%;
 	}
 	
 	blockquote.pullquote2{
-		width: 55%;
+		width: 40%;
 	}
 	
 	blockquote.pullquote3 {
-		width: 30%;
+		width: 27%;
 	}
 	
 	blockquote.pullquote4 {
-		width: 15%;
+		width: 10%;
 	}
 	
 	blockquote.pullquote5 {
-		width: 25%;
-	}
-	
-	blockquote.pullquote6 {
 		width: 20%;
 	}
 	
+	blockquote.pullquote6 {
+		width: 18%;
+	}
+	
 	blockquote.pullquote7 {
-		width: 30%;
+		width: 27%;
 	}
 	
 	blockquote.pullquote8 {
-		width: 25%;
+		width: 18%;
 	}
 	
 	blockquote.pullquote9 {
-		width: 25%;
+		width: 20%;
 	}
 	
 	blockquote.pullquote10 {
-		width: 30%;
+		width: 20%;
 	}
 	
 }
