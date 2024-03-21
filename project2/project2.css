@@ -578,16 +578,46 @@ blockquote.pullquote10 {
 	height: 80%;
 	margin-left: 10%;
 }
+	blockquote {
+		font-size: .9em;
+	}
 	
-blockquote.pullquote3, .pullquote5 .pullquote6, .pullquote8, .pullquote9 {
-		width: 50%;
+blockquote.pullquote8 {
+		width: 35%;
 	}
 
 blockquote.pullquote4 {
 		width: 20%;
 	}
 blockquote.pullquote7 {
-		width: 60%;
+		width: 50%;
+	}
+	
+	blockquote.pullquote1 {
+		width: 50%;
+	}
+	blockquote.pullquote2 {
+		width: 55%;
+	}
+	
+	blockquote.pullquote3 {
+		width: 45%;
+	}
+	
+	blockquote.pullquote5 {
+		width: 40%;
+	}
+	
+	blockquote.pullquote6 {
+		width: 37%;
+	}
+	
+	blockquote.pullquote9 {
+		width: 40%;
+	}
+	
+	blockquote.pullquote10 {
+		width: 37%;
 	}
 }
 
@@ -605,6 +635,123 @@ blockquote.pullquote7 {
 	
 	h3 {
 		font-size: .9em;
+	}
+	
+		.stairs img {
+		width: 50%;
+		height: 70%;
+		margin-left: 27%;
+	}
+	.house img {
+	width: 50%;
+	height: 70%;
+	margin-left: 25%;
+	}
+	
+	.tree3 img {
+	width: 40%;
+	height: 40%;
+	margin-left: 30%;
+	margin-top: 2%;
+	}
+	
+	.bush img {
+	width: 60%;
+	height: 70%;
+	margin-left: 15%;
+		margin-top: 2%;
+	}
+	.christopherrobin img {
+	width: 35%;
+	height: 70%;
+	margin-left: 35%;
+		margin-top: 2%;
+}
+.mud img {
+	width: 60%;
+	height: 80%;
+	margin-left: 20%;
+	margin-top: 2%;
+}
+.footprints img {
+	width: 60%;
+	height: 80%;
+	margin-left: 20%;
+	margin-top: 2%;
+}
+.balloon img {
+	width: 50%;
+	height: 80%;
+	margin-left: 25%;
+}
+.flying img {
+	width: 50%;
+	height: 80%;
+	margin-left: 27%;
+	margin-top: 2%;
+}
+.umbrella img {
+	width: 50%;
+	height: 80%;
+	margin-left: 32%;
+}
+.solobees img {
+	width: 60%;
+	height: 80%;
+	margin-left: 23%;
+}
+.solobees2 {
+	display: none;
+}
+.pop img {
+	width: 50%;
+	height: 80%;
+	margin-left: 30%;
+}
+.bathmat img {
+	width: 50%;
+	height: 80%;
+	margin-left: 25%;
+}
+.bath img {
+	width: 50%;
+	height: 80%;
+	margin-left: 26%;
+	margin-top: 2%;
+}
+	
+	blockquote.pullquote1 {
+		width: 40%;
+	}
+	
+	blockquote.pullquote2 {
+		width: 45%;
+	}
+blockquote.pullquote3 {
+		width: 34%;
+	}
+
+blockquote.pullquote4 {
+		width: 13%;
+	}
+	
+blockquote.pullquote5{
+		width: 30%;
+	}
+blockquote.pullquote7 {
+		width: 37%;
+	}
+	blockquote.pullquote6 {
+		width: 28%;
+	}
+	blockquote.pullquote8 {
+	width: 28%;
+	}
+	blockquote.pullquote9 {
+	width: 33%;
+	}
+	blockquote.pullquote10 {
+		width: 30%;
 	}
 }
 
@@ -652,103 +799,121 @@ blockquote.pullquote7 {
 	}
 	
 		.stairs img {
-		width: 70%;
+		width: 50%;
 		height: 70%;
-		margin-left: 15%;
+		margin-left: 30%;
 	}
 	.house img {
-	width: 70%;
+	width: 60%;
 	height: 70%;
-	margin-left: 14%;
+	margin-left: 20%;
 	}
 	
 	.tree3 img {
-	width: 50%;
+	width: 40%;
 	height: 40%;
-	margin-left: 25%;
+	margin-left: 30%;
+	margin-top: 2%;
 	}
 	
 	.bush img {
-	width: 70%;
+	width: 60%;
 	height: 70%;
-	margin-left: 10%;
+	margin-left: 15%;
+		margin-top: 2%;
 	}
 	.christopherrobin img {
-	width: 40%;
+	width: 35%;
 	height: 70%;
-	margin-left: 30%;
+	margin-left: 35%;
+		margin-top: 2%;
 }
 .mud img {
-	width: 80%;
+	width: 60%;
 	height: 80%;
-	margin-left: 10%;
+	margin-left: 20%;
+	margin-top: 2%;
 }
 .footprints img {
-	width: 80%;
+	width: 60%;
 	height: 80%;
-	margin-left: 10%;
+	margin-left: 20%;
+	margin-top: 2%;
 }
 .balloon img {
-	width: 70%;
+	width: 50%;
 	height: 80%;
-	margin-left: 10%;
+	margin-left: 25%;
 }
 .flying img {
-	width: 65%;
+	width: 50%;
 	height: 80%;
-	margin-left: 20%;
+	margin-left: 27%;
+	margin-top: 2%;
 }
 .umbrella img {
-	width: 70%;
+	width: 50%;
 	height: 80%;
-	margin-left: 20%;
+	margin-left: 32%;
 }
 .solobees img {
-	width: 80%;
+	width: 60%;
 	height: 80%;
-	margin-left: 12%;
+	margin-left: 23%;
 }
 .solobees2 {
 	display: none;
 }
 .pop img {
-	width: 70%;
+	width: 50%;
 	height: 80%;
-	margin-left: 20%;
+	margin-left: 30%;
 }
 .bathmat img {
-	width: 65%;
+	width: 50%;
 	height: 80%;
-	margin-left: 20%;
+	margin-left: 25%;
 }
 .bath img {
-	width: 70%;
+	width: 50%;
 	height: 80%;
-	margin-left: 15%;
+	margin-left: 26%;
+	margin-top: 2%;
 }
 	
 	blockquote.pullquote1 {
-		width: 50%;
+		width: 35%;
 	}
 	
-	blockquote.pullquote2, .pullquote10 {
-		width: 70%;
+	blockquote.pullquote2 {
+		width: 50%;
 	}
-blockquote.pullquote3, .pullquote8, .pullquote9 {
-		width: 40%;
+blockquote.pullquote3 {
+		width: 35%;
 	}
 
 blockquote.pullquote4 {
-		width: 20%;
+		width: 13%;
 	}
 	
-blockquote.pullquote5, .pullquote6, .pullquote8, .pullquote9 {
+blockquote.pullquote5{
 		width: 30%;
 	}
 blockquote.pullquote7 {
-		width: 40%;
+		width: 37%;
 	}
-
+	blockquote.pullquote6 {
+		width: 28%;
+	}
+	blockquote.pullquote8 {
+	width: 25%;
+	}
+	blockquote.pullquote9 {
+	width: 30%;
+	}
+	blockquote.pullquote10 {
+		width: 30%;
+	}
 }
 
 @media (min-width: 700px){
@@ -816,6 +981,10 @@ blockquote.pullquote7 {
 
 	}
 	
+	section {
+		background-color: #f9f2ec;
+	}
+	
 	p {
 		font-size: .8em;
 		line-height: 1.2em;
@@ -837,6 +1006,7 @@ blockquote.pullquote7 {
 	width: 40%;
 	height: 20%;
 	margin-left: 27%;
+		margin-top: 2%;
 	}
 	
 	.bush img {
@@ -849,11 +1019,13 @@ blockquote.pullquote7 {
 	width: 30%;
 	height: 70%;
 	margin-left: 33%;
+		margin-top: 2%;
 }
 .mud img {
 	width: 70%;
 	height: 80%;
 	margin-left: 15%;
+	margin-top: 2%;
 }
 .footprints img {
 	width: 70%;
@@ -869,6 +1041,7 @@ blockquote.pullquote7 {
 	width: 55%;
 	height: 80%;
 	margin-left: 25%;
+	margin-top: 2%;
 }
 .umbrella img {
 	width: 50%;
@@ -899,24 +1072,42 @@ blockquote.pullquote7 {
 	margin-left: 25%;
 }
 	blockquote {
-		font-size: 1.2em;
+		font-size: 1em;
 		
 	}
 	
 	blockquote.pullquote1 {
-		width: 60%;
+		width: 30%;
 	}
 	
-	blockquote.pullquote5 {
-		width: 50%;
+	blockquote.pullquote2 {
+		width: 40%;
+	}
+	
+	blockquote.pullquote3 {
+		width: 32%;
+	}
+	
+	blockquote.pullquote5, .pullquote6 {
+		width: 25%;
+	}
+	blockquote.pullquote6 {
+		width: 25%;
 	}
 	
 	blockquote.pullquote7 {
-		width: 45%;
+		width: 35%;
+	}
+	
+	blockquote.pullquote8 {
+		width: 25%;
+	}
+	blockquote.pullquote9 {
+		width: 27%;
 	}
 	
 	blockquote.pullquote10 {
-		width: 50%;
+		width: 25%;
 	}
 }
 
@@ -932,8 +1123,8 @@ blockquote.pullquote7 {
 	}
 	
 	h1 {
-		width: 45%;
-		font-size: 2.7em;
+		width: 42%;
+		font-size: 2.3em;
 		transform: translate(0, -250%)
 	}
 	h2 {
@@ -951,6 +1142,131 @@ blockquote.pullquote7 {
 	
 	section {
 		margin-top: 2%;
+	}
+	
+	.stairs img {
+		width: 40%;
+		height: 70%;
+		margin-left: 35%;
+	}
+	.house img {
+	width: 50%;
+	height: 70%;
+	margin-left: 27%;
+	}
+	
+	.tree3 img {
+	width: 35%;
+	height: 20%;
+	margin-left: 30%;
+		margin-top: 2%;
+	}
+	
+	.bush img {
+	width: 40%;
+	height: 70%;
+	margin-left: 30%;
+	}
+	
+	.christopherrobin img {
+	width: 30%;
+	height: 70%;
+	margin-left: 33%;
+		margin-top: 2%;
+}
+.mud img {
+	width: 50%;
+	height: 80%;
+	margin-left: 25%;
+	margin-top: 2%;
+}
+.footprints img {
+	width: 50%;
+	height: 80%;
+	margin-left: 27%;
+	margin-top: 2%;
+	
+}
+.balloon img {
+	width: 50%;
+	height: 80%;
+	margin-left: 25%;
+}
+.flying img {
+	width: 50%;
+	height: 80%;
+	margin-left: 30%;
+	margin-top: 2%;
+}
+.umbrella img {
+	width: 45%;
+	height: 80%;
+	margin-left: 34%;
+}
+.solobees img {
+	width: 60%;
+	height: 80%;
+	margin-left: 25%;
+}
+.solobees2 {
+	display: none;
+}
+.pop img {
+	width: 50%;
+	height: 80%;
+	margin-left: 30%;
+}
+.bathmat img {
+	width: 45%;
+	height: 80%;
+	margin-left: 30%;
+}
+.bath img {
+	width: 50%;
+	height: 80%;
+	margin-left: 25%;
+}
+	blockquote {
+		font-size: .95em;
+		
+	}
+	
+	blockquote.pullquote1 {
+		width: 25%;
+	}
+	
+	blockquote.pullquote2 {
+		width: 35%;
+	}
+	
+	blockquote.pullquote3 {
+		width: 25%;
+	}
+	
+	blockquote.pullquote4 {
+		width: 8%;
+	}
+	
+	blockquote.pullquote5{
+		width: 20%;
+	}
+	blockquote.pullquote6 {
+		width: 20%;
+	}
+	
+	blockquote.pullquote7 {
+		width: 28%;
+	}
+	
+	blockquote.pullquote8 {
+		width: 20%;
+	}
+	blockquote.pullquote9 {
+		width: 22%;
+	}
+	
+	blockquote.pullquote10 {
+		width: 20%;
 	}
 	
 	
@@ -1006,48 +1322,133 @@ blockquote.pullquote7 {
 	}
 	
 	blockquote {
-		font-size: 1.3em;
+		font-size: 1em;
 	}
 	
 	blockquote.pullquote1 {
-		width: 50%;
+		width: 20%;
 	}
 	
 	blockquote.pullquote2 {
-		width: 50%;
+		width: 30%;
 	}
 	
 	blockquote.pullquote3 {
-		width: 30%;
+		width: 20%;
 	}
 	
 	blockquote.pullquote4 {
-		width: 10%;
+		width: 8%;
 	}
 	
 	blockquote.pullquote5 {
-		width: 30%;
+		width: 15%;
 	}
 	
 	blockquote.pullquote6 {
-		width: 25%;
+		width: 15%;
 	}
 	
 	blockquote.pullquote7 {
-		width: 32%;
+		width: 22%;
 	}
 	
 	blockquote.pullquote8 {
-		width: 23%;
+		width: 15%;
 	}
 	
 	blockquote.pullquote9 {
-		width: 27%;
+		width: 16%;
 	}
 	
 	blockquote.pullquote10 {
-		width: 30%;
+		width: 15%;
 	}
+	
+	.stairs img {
+		width: 30%;
+		height: 70%;
+		margin-left: 40%;
+		margin-top: 2%;
+		margin-bottom: -2%;
+	}
+	.house img {
+	width: 35%;
+	height: 70%;
+	margin-left: 33%;
+	}
+	
+	.tree3 img {
+	width: 27%;
+	height: 20%;
+	margin-left: 37%;
+		margin-top: 2%;
+	}
+	
+	.bush img {
+	width: 35%;
+	height: 70%;
+	margin-left: 30%;
+	margin-top: 3%;
+	}
+	
+	.christopherrobin img {
+	width: 23%;
+	height: 70%;
+	margin-left: 40%;
+		margin-top: 2%;
+}
+.mud img {
+	width: 40%;
+	height: 80%;
+	margin-left: 32%;
+	margin-top: 2%;
+}
+.footprints img {
+	width: 45%;
+	height: 80%;
+	margin-left: 30%;
+	margin-top: 2%;
+}
+.balloon img {
+	width: 30%;
+	height: 80%;
+	margin-left: 35%;
+}
+.flying img {
+	width: 30%;
+	height: 80%;
+	margin-left: 38%;
+	margin-top: 2%;
+}
+.umbrella img {
+	width: 30%;
+	height: 80%;
+	margin-left: 42%;
+}
+.solobees img {
+	width: 40%;
+	height: 80%;
+	margin-left: 33%;
+}
+.solobees2 {
+	display: none;
+}
+.pop img {
+	width: 40%;
+	height: 80%;
+	margin-left: 35%;
+}
+.bathmat img {
+	width: 35%;
+	height: 80%;
+	margin-left: 35%;
+}
+.bath img {
+	width: 35%;
+	height: 80%;
+	margin-left: 33%;
+}
 }
 
 @media (min-width: 1100px){
@@ -1189,14 +1590,14 @@ blockquote.pullquote7 {
 		margin-left: auto;
 	}
 	.stairs img {
-		width: 40%;
+		width: 30%;
 		height: 70%;
-		margin-left: 30%;
+		margin-left: 33%;
 	}
 	.house img {
-	width: 50%;
+	width: 40%;
 	height: 70%;
-	margin-left: 22%;
+	margin-left: 27%;
 	}
 	
 	.tree3 img {
@@ -1220,27 +1621,27 @@ blockquote.pullquote7 {
 	margin-top: 2%;
 }
 .mud img {
-	width: 60%;
+	width: 40%;
 	height: 80%;
-	margin-left: 20%;
+	margin-left: 30%;
 	margin-top: 2%;
 }
 .footprints img {
-	width: 60%;
+	width: 50%;
 	height: 80%;
-	margin-left: 15%;
+	margin-left:23%;
 	margin-top: 2%;
 }
 .balloon img {
-	width: 50%;
+	width: 40%;
 	height: 80%;
-	margin-left: 25%;
+	margin-left: 30%;
 	margin-top: 2%;
 }
 .flying img {
-	width: 50%;
+	width: 40%;
 	height: 80%;
-	margin-left: 22%;
+	margin-left: 30%;
 	margin-top: 2%;
 }
 .umbrella img {
@@ -1255,63 +1656,64 @@ blockquote.pullquote7 {
 	margin-left: 30%;
 }
 .pop img {
-	width: 50%;
+	width: 40%;
 	height: 80%;
-	margin-left: 30%;
+	margin-left: 35%;
 }
 .bathmat img {
-	width: 45%;
+	width: 40%;
 	height: 80%;
-	margin-left: 30%;
+	margin-left: 33%;
 }
 .bath img {
-	width: 50%;
+	width: 40%;
 	height: 80%;
-	margin-left: 25%;
+	margin-left: 30%;
+	margin-top: 2%;
 }
 	blockquote {
-		font-size: 1.4em;
+		font-size: 1.2em;
 		background-color: #ac7339;
 	}
 	
 	blockquote.pullquote1 {
-		width: 30%;
+		width: 25%;
 	}
 	
 	blockquote.pullquote2{
-		width: 40%;
+		width: 30%;
 	}
 	
 	blockquote.pullquote3 {
-		width: 27%;
+		width: 23%;
 	}
 	
 	blockquote.pullquote4 {
-		width: 10%;
+		width: 7%;
 	}
 	
 	blockquote.pullquote5 {
-		width: 20%;
+		width: 17%;
 	}
 	
 	blockquote.pullquote6 {
-		width: 18%;
+		width: 16%;
 	}
 	
 	blockquote.pullquote7 {
-		width: 27%;
+		width: 25%;
 	}
 	
 	blockquote.pullquote8 {
-		width: 18%;
+		width: 16%;
 	}
 	
 	blockquote.pullquote9 {
-		width: 20%;
+		width: 18%;
 	}
 	
 	blockquote.pullquote10 {
-		width: 20%;
+		width: 18%;
 	}
 	
 }
