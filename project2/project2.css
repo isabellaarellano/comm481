@@ -469,6 +469,13 @@ blockquote.pullquote10 {
 	width: 60%;
 }
 
+@media (min-width: 400px){
+	
+	h1 {
+		width: 70%;
+		transform: translate(0, -550%)
+	}
+}
 
 @media (min-width: 450px){
 	
@@ -480,17 +487,18 @@ blockquote.pullquote10 {
 	
 	h1 {
 		transform: translate(0, -550%);
-		width: 50%;
+		width: 60%;
 	}
 	
 	h2 {
-		font-size: 3em;
+		font-size: 2.7em;
 		margin-top: -7%;
 	}
 	
 	h3 {
 		margin-bottom: -5%;
-		line-height: 1.5em
+		line-height: 1.5em;
+		font-size: 1em;
 		
 	}
 	
@@ -583,6 +591,23 @@ blockquote.pullquote7 {
 	}
 }
 
+@media (min-width: 525px){
+	h1 {
+		width: 50%;
+		font-size: 2.7em;
+		transform: translate(0, -575%);
+	}
+	
+	.lookingup img {
+		width: 75%;
+		margin-left: 7%;
+	}
+	
+	h3 {
+		font-size: .9em;
+	}
+}
+
 @media (min-width: 600px){
 	
 	nav .back, nav .home, nav .next {
@@ -597,21 +622,21 @@ blockquote.pullquote7 {
 	
 	h1 {
 		width: 50%;
-		transform: translate(0, -650%);
+		transform: translate(0, -550%);
 		text-align: center;
 	}
 	.lookingup img {
-		width: 80%;
+		width: 70%;
 		height: 40%;
 		margin-left: 5%;
 	}
 	
 	h2 {
-		font-size: 4em;
+		font-size: 3em;
 	}
 	
 	h3 {
-		font-size: 1.1em;
+		font-size: .9em;
 		margin-bottom: -5%;
 	}
 	
@@ -726,6 +751,19 @@ blockquote.pullquote7 {
 
 }
 
+@media (min-width: 700px){
+	h1 {
+		transform: translate(0, -730%);
+		font-size: 2.6em;
+		width: 40%;
+	}
+	
+	.lookingup img {
+		width: 65%;
+		margin-left: 10%;
+	}
+}
+
 @media (min-width: 768px){
 	
 	header {
@@ -747,8 +785,12 @@ blockquote.pullquote7 {
 }
 	
 	.tree4 img {
-		width: 100%;
+		width: 85%;
 		height: 90%;
+	}
+	
+	.lookingup img {
+		width: 75%;
 	}
 	
 	nav {
@@ -758,23 +800,24 @@ blockquote.pullquote7 {
 	 }
 	
 	h1 {
-		transform: translate(0, -230%)
+		transform: translate(0, -250%);
+		font-size: 2.3em;
 	}
 
 	h2 {
 		text-align: center;
 		margin-top: -25%;
-		font-size: 3em;
+		font-size: 2.7em;
 	}
 	
 	h3 {
 		text-align: center;
-		font-size: 1em;
+		font-size: .8em;
 
 	}
 	
 	p {
-		font-size: 1em;
+		font-size: .8em;
 		line-height: 1.2em;
 		text-align: center;
 	}
@@ -889,21 +932,21 @@ blockquote.pullquote7 {
 	}
 	
 	h1 {
-		width: 50%;
-		font-size: 4em;
-		transform: translate(0, -190%)
+		width: 45%;
+		font-size: 2.7em;
+		transform: translate(0, -250%)
 	}
 	h2 {
-		margin-top: -35%;
-		font-size: 3em;
+		margin-top: -22%;
+		font-size: 2.6em;
 	}
 	
 	h3 {
-		font-size: .9em;
+		font-size: .8em;
 	}
 	
 	.tree4 {
-		width: 30%;
+		width: 35%;
 	}
 	
 	section {
@@ -918,8 +961,6 @@ blockquote.pullquote7 {
 		width: 85%;
 		margin-left: -0%;
 	}
-	
-
 	header {
 	width: 40%;
 	background-color: transparent;
@@ -938,7 +979,7 @@ blockquote.pullquote7 {
 	}
 	
 	.tree4 {
-		width: 30%;
+		width: 32%;
 		margin-left: 4%;
 	}
 	.tree4 img{
@@ -946,18 +987,18 @@ blockquote.pullquote7 {
 	}
 	
 	h1 {
-		font-size: 3em;
-		transform: translate(-10%, -225%);
+		font-size: 2.7em;
+		transform: translate(0, -250%);
 	}
 	
 	h2 {
-		font-size: 3.5em;
+		font-size: 3em;
 		margin-top: -20%;
 	}
 	
 	h3 {
 		width: 90%;
-		font-size: 1em;
+		font-size: .8em;
 	}
 	
 	section {
@@ -1033,30 +1074,44 @@ blockquote.pullquote7 {
 	}
 	
 	.tree4 {
-		width: 33%;
-		margin-left: .5%;
+		width: 30%;
+		margin-left: 2%;
 	}
 	.tree4 img {
 		width: 90%;
 	}
 	
 	h1 {
-		transform: translate(0, -400%);
+		transform: translate(0, -450%);
 		width: 60%;
 	}
 	
 	h2 {
-		font-size: 3.5em;
-		margin-top: -10%;
+		font-size: 3em;
+		margin-top: -9%;
 	}
 	
 	h3 {
-		font-size: 1.2em;
+		font-size: 1em;
+		width: 80%;
+		margin-left: 12%;
 	}
 	
 	section {
 		margin-top: 0;
 	}
+}
+
+@media (min-width: 1200px){
+	.tree4 img {
+		width: 90%;
+	}
+	
+	h3 {
+		width: 70%;
+		margin-left: 15%;
+	}
+	
 }
 
 @media (min-width: 1280px){
