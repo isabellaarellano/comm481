@@ -741,10 +741,9 @@ blockquote.pullquote7 {
 	display: block;
 	width: 35%;
 	height: 10%;
-	top: 0;
 	right: 0;
 	padding-left: 15%;
-	margin: 0;
+	margin-top: 1.5%;
 }
 	
 	.tree4 img {
@@ -1112,6 +1111,7 @@ blockquote.pullquote7 {
 		width: 33%;
 		height: 40%;
 		margin-right: -2%;
+		margin-top: 1.5%;
 	}
 	
 	
