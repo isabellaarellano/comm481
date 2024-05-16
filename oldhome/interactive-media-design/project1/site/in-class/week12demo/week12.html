@@ -1,0 +1,175 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Hotspots and JavaScript Interactive Sound Effects</title>
+
+
+<style type="text/css">
+	
+body {
+	margin: 0;
+}
+#wrapper {
+	width: 1000px;
+	margin: 0 auto;
+}
+	
+#buttons {
+	width: 900px;
+	margin-left: 50px;
+	float: left;
+}
+	
+.number {
+	width: 200px;
+	height: 200px;
+	margin: 75px 50px 25px 50px;
+	float:  left;
+}
+	
+#farmanimals {
+	width: 1000px;
+	height: 750px;
+	clear: both;
+}
+	
+</style>
+
+
+<!--IMAGE SWAP BEHAVIORS-->
+    
+<script type="text/javascript">
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+    </script>
+    
+    
+    
+<!--
+SOUND EFFECTS
+Creates new Audio Objects: var bomb = new Audio(); 
+and sets the source for sound: bomb.src = "media/sound2.mp3";
+Note that each variable name (e.g. bomb) must be unique.
+-->
+    
+    <script type="text/javascript">
+var bomb = new Audio();
+        bomb.src = "media/sound2.mp3";
+		
+		var burp = new Audio();
+        burp.src = "media/sound3.mp3";
+        
+		var slide = new Audio();
+        slide.src = "media/sound4.mp3";
+		
+		var neigh = new Audio();
+		neigh.src = "media/horse.mp3";
+		
+		var pig = new Audio();
+		pig.src = "media/pig.mp3";
+		
+		var moo = new Audio();
+		moo.src = "media/cow.mp3";
+		
+		var eee = new Audio();
+		eee.src = "media/goat.mp3";
+		
+		var quack = new Audio();
+		quack.src = "media/goose.mp3";
+		
+		var chick = new Audio();
+		chick.src = "media/rooster.mp3";
+		
+		var baaa = new Audio();
+		baaa.src = "media/sheep.mp3";
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+  window.open(theURL,winName,features);
+}
+    </script>
+
+
+
+</head>
+
+
+<!--
+Copy and Paste this onClick attribute into an <a> element surrounding the image or text you want to click for sound:
+
+	<a href="#" onClick="bomb.play()">
+
+Change the soundclip name to match the variable name you set above.
+
+Note that you can also specify an onMouseOver event to trigger the sound:
+
+	<a href="#" onMouseOver="bomb.play()">
+-->
+    
+
+<body onLoad="MM_preloadImages('media/one-click.png','media/two-click.png','media/three-click.png')">	
+	
+<div id="wrapper">
+	
+  <div id="buttons">
+	
+		<div class="number"><a href="#" onClick="bomb.play()"  onMouseDown="MM_swapImage('buttonone','','media/one-click.png',1)" onMouseUp="MM_swapImgRestore()"><img src="media/one.png" alt="boom" id="buttonone"></a></div>
+		
+		<div class="number"><a href="#" onClick="burp.play()"  onMouseDown="MM_swapImage('buttontwo','','media/two-click.png',1)" onMouseUp="MM_swapImgRestore()"><img src="media/two.png" alt="stupid sound" id="buttontwo"></a></div>
+		
+		<div class="number"><a href="#" onClick="slide.play()" onMouseDown="MM_swapImage('buttonthree','','media/three-click.png',1)" onMouseUp="MM_swapImgRestore()"><img src="media/three.png" alt="stupid sound" id="buttonthree"></a></div>
+	
+  </div>
+
+  <div id="farmanimals">
+		<img src="media/farmanimals.jpg" alt="" width="1000" height="750" usemap="#Map"/>
+		
+		
+	<!--HOTSPOTS-->
+
+
+		<map name="Map">
+
+			<area shape="poly" coords="413,31,280,129,184,105,124,113,86,107,54,137,63,194,57,236,27,257,28,270,68,274,71,312,100,325,100,286,134,269,179,235,186,276,223,319,234,363,278,356,256,315,225,274,228,254,292,263,320,330,305,343,302,357,322,378,333,376,337,426,360,434,387,429,381,407,364,381,357,345,357,322,380,299,381,270,389,233,397,207,432,149,443,163,450,176,464,183,482,177,488,156,475,104,477,86,468,56,478,40,476,21,452,38,430,42" href="#" onMouseOver="neigh.play()">
+
+		  <area shape="poly" coords="467,299,506,304,521,317,532,330,534,344,535,380,530,421,530,449,516,458,511,485,509,508,500,520,488,516,473,457,459,458,446,457,442,484,441,505,417,507,416,464,399,441,394,407,399,388,381,352" href="#" onMouseOver="pig.play()">
+		  
+			
+		  <area shape="poly" coords="553,147,529,230,532,305,549,368,572,374,592,326,603,311,656,316,660,357,694,359,703,331,750,335,770,384,776,400,807,401,792,359,781,319,779,293,795,280,821,298,851,287,845,259,841,232,843,212,856,197,855,184,803,189,755,194" href="#" onMouseOver="moo.play()">
+		 
+		
+		  <area shape="poly" coords="57,312,26,332,18,371,24,407,32,445,39,491,57,494,65,491,77,515,80,562,95,568,109,562,110,550,102,518,98,488,112,494,120,495,121,508,129,525,138,525,149,522,147,508,147,496,152,481,154,463,153,445,154,425,150,408,152,400,173,422,181,414,194,406,189,395,191,389,186,375,183,364,180,344,180,336,189,330,192,318,194,309,194,300,180,305,169,314,166,307,165,288,160,272,155,272,150,297,148,316,142,324,132,307,126,297,113,285,110,293,115,308,119,318,120,327,121,334,115,340,105,333,100,325,91,320,78,315" href="#" onMouseOver="eee.play()">
+			
+		  <area shape="poly" coords="174,581,176,599,173,612,167,616,167,623,177,620,188,618,195,627,204,634,218,640,236,647,249,656,267,667,286,677,297,670,302,670,311,663,317,656,310,647,325,645,328,636,331,629,333,620,347,606,358,586,358,571,355,554,344,535,338,522,331,507,330,493,342,487,362,491,369,482,349,469,341,458,325,452,310,456,302,473,299,500,301,526,302,539,280,545,258,546,214,565" href="#" onMouseOver="quack.play()">
+			
+		  <area shape="poly" coords="506,530,502,545,496,558,486,576,483,597,490,617,504,635,518,641,509,658,519,676,540,688,557,688,573,685,590,677,603,670,603,658,590,637,587,622,594,614,596,603,599,593,613,603,631,598,629,583,629,562,632,537,622,520,602,504,584,506,564,534,554,565,540,563,541,544,544,528,553,524,555,510,551,500,538,494,527,495,512,510,506,516" href="#" onMouseOver="chick.play()">
+			
+		  <area shape="poly" coords="967,432,920,407,885,401,850,402,807,401,760,401,729,403,713,386,687,374,663,374,648,363,643,381,648,393,640,412,638,432,645,440,659,453,678,485,699,513,721,534,716,558,704,583,702,602,725,601,733,581,740,565,748,564,764,563,770,554,769,540,786,530,804,536,839,539,870,535,891,530,876,556,904,561,923,549,928,571,915,590,930,606,946,605,952,568,951,545,962,520,961,483,961,475,982,483,986,466" href="#" onMouseOver="baaa.play()">
+		</map>
+
+  </div>
+
+</div>
+
+</body>
+</html>

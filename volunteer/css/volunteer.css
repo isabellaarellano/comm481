@@ -1,0 +1,999 @@
+@charset "UTF-8";
+
+article {
+	min-width: 320px;
+	max-width: 1500px;
+	width: 100%;
+	background-color: #edede7;
+	}
+
+#container {
+	min-width: 320px;
+	max-width: 2000px;
+	width: 100%;
+	background-color: #edede7;
+}
+
+header {
+	width: 100%;
+	margin-bottom: 5%;
+  	position: relative;
+	float: left;
+	background-color: #6d8c79;
+}
+
+nav {
+	width: 70%;
+	height: 70%;
+	background-color: rgb(255 255 255 / 80%);
+	padding: 5%;
+	margin-top: 10%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 10%;
+	
+}
+
+#title {
+	font-family: "eskorte-latin", serif;
+	font-weight: 400;
+	font-style: normal;
+	color: #255537;
+	font-size: 2.1em;
+	text-align: center;
+}
+
+#back {
+	margin-top: 6%;
+	font-family: "eskorte-latin", serif;
+	font-weight: 400;
+	font-style: normal;
+	color: #6d8c79;
+	font-size: .8em;
+	text-align: center;
+}
+
+h1 {
+	font-family: "eskorte-latin", serif;
+	font-weight: 400;
+	font-style: normal;
+	color: #255537;
+	font-size: 1.2em;
+	margin-right: 2%;
+	margin-left: 4%;
+	text-align: center;
+}
+
+p {
+	font-family: "eskorte-latin", serif;
+	font-weight: 400;
+	font-style: normal;
+	color: #6d8c79;
+	font-size: .7em;
+	text-align: center;
+	margin: 1.5% auto 5%; 
+	line-height: 1.3em;
+}
+
+h3 {
+	font-family: "eskorte-latin", serif;
+	font-weight: 400;
+	font-style: italic;
+	color: #255537;
+	font-size: 1.2em;
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 5%;
+}
+
+#refresh {
+	width: 50%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#refresh img {
+	width: 100%;
+	height: 60%;
+}
+
+#logo {
+	width: 50%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#logo img {
+	width: 100%;
+	height: 60%;
+}
+
+#post {
+	width: 50%;
+	margin: 10px auto 15px auto;
+	
+}
+
+#post img {
+	width: 100%;
+	height: 60%;
+}
+
+h4 {
+	font-family: "eskorte-latin", serif;
+	font-weight: 400;
+	font-style: normal;
+	color: #486f56;
+	font-size: 1em;
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 5%;
+}
+
+#camp1 {
+	width: 50%;
+	margin: 10px auto 15px auto;
+	
+}
+
+#camp1 img {
+	width: 100%;
+	height: 60%;
+}
+
+#camp2 {
+	width: 50%;
+	margin: 10px auto 15px auto;
+	
+}
+
+#camp2 img {
+	width: 100%;
+	height: 60%;
+}
+
+#camp3 {
+	width: 50%;
+	margin: 10px auto 15px auto;
+	
+}
+
+#camp3 img {
+	width: 100%;
+	height: 60%;
+}
+
+#camp4 {
+	width: 50%;
+	margin: 10px auto 15px auto;
+	
+}
+
+#camp4 img {
+	width: 100%;
+	height: 60%;
+}
+
+#lockin1 {
+	width: 50%;
+	margin: 10px auto 15px auto;
+	
+}
+
+#lockin1 img {
+	width: 100%;
+	height: 60%;
+}
+
+#lockin2 {
+	width: 50%;
+	margin: 10px auto 15px auto;
+	
+}
+
+#lockin2 img {
+	width: 100%;
+	height: 60%;
+}
+
+#banquet1 {
+	width: 50%;
+	margin: 10px auto 15px auto;
+	
+}
+
+#banquet1 img {
+	width: 100%;
+	height: 60%;
+}
+
+#banquet2 {
+	width: 50%;
+	margin: 10px auto 15px auto;
+	
+}
+
+#banquet2 img {
+	width: 100%;
+	height: 60%;
+}
+
+#friday1 {
+	width: 50%;
+	margin: 10px auto 15px auto;
+	
+}
+
+#friday1 img {
+	width: 100%;
+	height: 60%;
+}
+
+#friday2 {
+	width: 50%;
+	margin: 10px auto 15px auto;
+	
+}
+
+#friday2 img {
+	width: 100%;
+	height: 60%;
+}
+
+#friday3 {
+	width: 50%;
+	margin: 10px auto 15px auto;
+	
+}
+
+#friday3 video {
+	width: 100%;
+	height: 60%;
+}
+
+#vbs1 {
+	width: 50%;
+	margin: 10px auto 15px auto;
+	
+}
+
+#vbs1 img {
+	width: 100%;
+	height: 60%;
+}
+
+#vbs2 {
+	width: 50%;
+	margin: 10px auto 15px auto;
+	
+}
+
+#vbs2 img {
+	width: 100%;
+	height: 60%;
+}
+
+#awana1 {
+	width: 50%;
+	margin: 10px auto 15px auto;
+	
+}
+
+#awana1 img {
+	width: 100%;
+	height: 60%;
+}
+
+#awana2 {
+	width: 50%;
+	margin: 10px auto 15px auto;
+	
+}
+
+#awana2 img {
+	width: 100%;
+	height: 60%;
+}
+
+#awana {
+	padding-bottom: 10%;
+}
+
+@media (min-width: 320px){
+	nav {
+		margin-top: 7%;
+		margin-bottom: 10%;
+	}
+	
+}
+
+@media (min-width: 450px){
+	p {
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+	
+	#refresh {
+	width: 50%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#refresh img {
+	width: 100%;
+	height: 60%;
+}
+
+#logo {
+	width: 40%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#logo img {
+	width: 100%;
+	height: 60%;
+}
+
+#post {
+	width: 40%;
+	margin: 10px auto 15px auto;
+	
+}
+
+#post img {
+	width: 100%;
+	height: 60%;
+}
+	
+#camp1 {
+	width: 40%;
+	margin: 10px auto 15px auto;
+	
+}
+
+#camp1 img {
+	width: 100%;
+	height: 60%;
+}
+
+#camp2 {
+	width: 40%;
+	margin: 10px auto 15px auto;
+	
+}
+
+#camp2 img {
+	width: 100%;
+	height: 60%;
+}
+
+#camp3 {
+	width: 40%;
+	margin: 10px auto 15px auto;
+	
+}
+
+#camp3 img {
+	width: 100%;
+	height: 60%;
+}
+
+#camp4 {
+	width: 40%;
+	margin: 10px auto 15px auto;
+	
+}
+
+#camp4 img {
+	width: 100%;
+	height: 60%;
+}
+
+#lockin1 {
+	width: 40%;
+	margin: 10px auto 15px auto;
+	
+}
+
+#lockin1 img {
+	width: 100%;
+	height: 60%;
+}
+
+#lockin2 {
+	width: 40%;
+	margin: 10px auto 15px auto;
+	
+}
+
+#lockin2 img {
+	width: 100%;
+	height: 60%;
+}
+
+#banquet1 {
+	width: 40%;
+	margin: 10px auto 15px auto;
+	
+}
+
+#banquet1 img {
+	width: 100%;
+	height: 60%;
+}
+
+#banquet2 {
+	width: 40%;
+	margin: 10px auto 15px auto;
+	
+}
+
+#banquet2 img {
+	width: 100%;
+	height: 60%;
+}
+
+#friday1 {
+	width: 40%;
+	margin: 10px auto 15px auto;
+	
+}
+
+#friday1 img {
+	width: 100%;
+	height: 60%;
+}
+
+#friday2 {
+	width: 40%;
+	margin: 10px auto 15px auto;
+	
+}
+
+#friday2 img {
+	width: 100%;
+	height: 60%;
+}
+
+#friday3 {
+	width: 40%;
+	margin: 10px auto 15px auto;
+	
+}
+
+#friday3 video {
+	width: 100%;
+	height: 60%;
+}
+
+#vbs1 {
+	width: 40%;
+	margin: 10px auto 15px auto;
+	
+}
+
+#vbs1 img {
+	width: 100%;
+	height: 60%;
+}
+
+#vbs2 {
+	width: 40%;
+	margin: 10px auto 15px auto;
+	
+}
+
+#vbs2 img {
+	width: 100%;
+	height: 60%;
+}
+
+#awana1 {
+	width: 40%;
+	margin-left: 5%;
+	float: left;
+	
+}
+
+#awana1 img {
+	width: 100%;
+	height: 60%;
+}
+
+#awana2 {
+	width: 40%;
+	margin-left: 10%;
+	float: left;
+	
+}
+
+#awana2 img {
+	width: 100%;
+	height: 60%;
+}
+	
+	#awana {
+	padding-bottom: 80%;
+}
+
+}
+
+@media (min-width: 550px){
+	nav {
+	width: 60%;
+	height: 70%;
+	background-color: rgb(255 255 255 / 80%);
+	padding: 5%;
+	margin: 5% auto;
+	}
+	
+	#logo {
+		float: left;
+		margin-left: 7.5%; 
+	}
+	
+	#post {
+		float: left;
+		margin-top: 0%;
+		margin-left: 5%;
+	}
+	
+	#camp1 {
+		float: left;
+		margin-left: 7.5%; 
+	}
+	
+	#camp3 {
+		float: left;
+		margin-left: 5%;
+	}
+	
+	#camp2 {
+		float: left;
+		margin-left: 7.5%; 
+	}
+	
+	#camp4 {
+		float: left;
+		margin-left: 5%;
+		width: 30%;
+	}
+	
+	nav #instagram, #special, #summercamp, #lockin, #banquet, #friday, #children, #vbs, #awana {
+		float: left;
+		
+	}
+	
+	#instagram, #special, #summercamp, #lockin, #banquet, #friday, #children, #vbs, #awana {
+		background-color: #edede7;
+		
+	}
+	
+	#awana {
+		padding: 5%;
+	}
+	
+	#lockin1 {
+		float: left;
+		margin-left: 12.5%; 
+		width: 30%;
+	}
+	
+	#lockin2 {
+		float: left;
+		margin-left: 5%;
+	}
+	
+	#banquet1 {
+		float: left;
+		margin-left: 7.5%; 
+	}
+	
+	#banquet2 {
+		float: left;
+		margin-left: 5%;
+	}
+	
+	#friday2 {
+		margin-right: auto;
+		margin-left: auto;
+	}
+	
+	#friday3 {
+		float: left;
+		width: 30%;
+		margin-left: 15%;
+	}
+	
+	#friday1 {
+		width: 30%;
+		float: left;
+		margin-left: 10%; 
+	}
+	
+	#vbs1 {
+		float: left;
+		margin-left: 7.5%; 
+	}
+	
+	#vbs2 {
+		float: left;
+		margin-left: 5%;
+	}
+	
+	#awana1, #awana2 {
+		width: 30%;
+	}
+	
+	#awana1 {
+		margin-left: 10%;
+	}
+	
+	#awana2 {
+		margin-left: 20%;
+	}
+	
+	p {
+		font-size: .8em;
+	}
+	
+	#title {
+		font-size: 2.5em;
+	}
+}
+
+@media (min-width: 650px){
+	nav {
+		width: 50%;
+		padding: 3%;
+	}
+	
+	h1 {
+		margin-right: 10%;
+		margin-left: 10%;
+	}
+	
+}
+
+@media (min-width: 780px){
+	nav {
+		width: 45%;
+		padding: 3%;
+	}
+	
+	#title {
+		font-size: 2.7em;
+	}
+	
+	#back {
+		margin-top: 5%;
+		font-size: 1.2em;
+	}
+	
+	h1 {
+		width: 70%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	
+	p {
+		width: 80%;
+		margin-right: auto;
+		margin-left: auto;
+		margin-top: .5%;
+		font-size: 1em;
+		
+	}
+	
+	#logo {
+		width: 30%;
+		margin-left: 15%; 
+	}
+	
+	#post {
+		width: 30%;
+		margin-top: 0%;
+		margin-left: 10%;
+	}
+	
+	#refresh {
+		width: 30%;
+	}
+	
+	#camp1 {
+		width: 30%;
+		float: left;
+		margin-left: 15%; 
+	}
+	
+	#camp3 {
+		width: 30%;
+		float: left;
+		margin-left: 10%;
+	}
+	
+	#camp2 {
+		width: 30%;
+		float: left;
+		margin-left: 15%; 
+	}
+	
+	#camp4 {
+		float: left;
+		margin-left: 10%;
+		width: 25%;
+	}
+	
+	h3, h4 {
+		margin-top: 3%;
+	}
+	
+	#lockin1 {
+		float: left;
+		margin-left: 15%; 
+		width: 25%;
+	}
+	
+	#lockin2 {
+		float: left;
+		width: 35%;
+		margin-left: 10%;
+	}
+	
+	#banquet1 {
+		float: left;
+		margin-left: 15%; 
+		width: 30%;
+	}
+	
+	#banquet2 {
+		float: left;
+		margin-left: 10%;
+		width: 30%;
+	}
+	
+	#friday2 {
+		margin-right: auto;
+		margin-left: auto;
+	}
+	
+	#friday3 {
+		float: left;
+		width: 25%;
+		margin-left: 20%;
+	}
+	
+	#friday1 {
+		width: 25%;
+		float: left;
+		margin-left: 10%; 
+	}
+	
+	#vbs1 {
+		float: left;
+		margin-left: 15%; 
+		width: 30%;
+	}
+	
+	#vbs2 {
+		float: left;
+		margin-left: 10%;
+		width: 30%;
+	}
+	
+	#awana1, #awana2 {
+		width: 25%;
+	}
+	
+	#awana1 {
+		margin-left: 20%;
+	}
+	
+	#awana2 {
+		margin-left: 10%;
+	}
+	
+}
+
+@media (min-width: 900px){
+	
+nav {
+		width: 45%;
+		padding: 3%;
+	}
+	
+	#back {
+		margin-top: 3%;
+	}
+	
+	h1 {
+		width: 65%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	
+	p {
+		width: 75%;
+		margin-right: auto;
+		margin-left: auto;
+		margin-top: .5%;
+		font-size: .8em;
+		
+	}
+	
+	#logo {
+		width: 25%;
+		margin-left: 20%; 
+	}
+	
+	#post {
+		width: 25%;
+		margin-top: 0%;
+		margin-left: 10%;
+	}
+	
+	#refresh {
+		width: 25%;
+	}
+	
+	h3, h4 {
+		margin-top: 3%;
+	} 
+	h1 {
+		font-size: 1.5em;
+	}
+	
+	h3 {
+		font-size: 1.3em;
+	}
+	
+	h4{
+		font-size: 1.1em;
+	}
+	
+}
+
+@media (min-width: 1100px){
+	nav {
+		width: 40%;
+		padding: 3%;
+	}
+	
+	#back {
+		margin-top: 3%;
+	}
+	
+	h1 {
+		width: 65%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	
+	p {
+		width: 75%;
+		margin-right: auto;
+		margin-left: auto;
+		margin-top: .5%;
+		font-size: 1em;
+		
+	}
+	
+	#logo {
+		width: 25%;
+		margin-left: 20%; 
+	}
+	
+	#post {
+		width: 25%;
+		margin-top: 0%;
+		margin-left: 10%;
+	}
+	
+	#refresh {
+		width: 25%;
+	}
+	
+	h3, h4 {
+		margin-top: 3%;
+	} 
+	h1 {
+		font-size: 1.5em;
+	}
+	
+	h3 {
+		font-size: 1.3em;
+	}
+	
+	h4{
+		font-size: 1.1em;
+	}
+	
+	#logo {
+		width: 25%;
+		margin-left: 20%; 
+	}
+	
+	#post {
+		width: 25%;
+		margin-left: 10%;
+	}
+	
+}
+
+@media (min-width: 1280px){
+	
+		nav {
+		width: 30%;
+		padding: 3%;
+		margin-top: 3%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 3%;
+	
+	}
+	
+	#title {
+		font-size: 2.9em;
+	}
+	
+	#back {
+		font-size: 1.5em;
+		margin-top: 3%;
+	}
+	
+	h1 {
+		width: 45%;
+		margin-right: auto;
+		margin-left: auto;
+		font-size: 1.8em;
+		line-height: 1.4em;
+	}
+	
+	p {
+		width: 70%;
+		margin-right: auto;
+		margin-left: auto;
+		margin-top: 1%;
+		font-size: 1.1em;
+		
+	}
+	
+	#logo {
+		width: 25%;
+		margin-left: 20%; 
+	}
+	
+	#post {
+		width: 25%;
+		margin-top: 0%;
+		margin-left: 10%;
+	}
+	
+	#refresh {
+		width: 25%;
+	}
+	
+	h3, h4 {
+		margin-top: 3%;
+	} 
+	
+	h3 {
+		font-size: 1.7em;
+	}
+	
+	h4{
+		font-size: 1.4em;
+	}
+	
+	#logo {
+		width: 25%;
+		margin-left: 20%; 
+	}
+	
+	#post {
+		width: 25%;
+		margin-left: 10%;
+	}
+	
+}
